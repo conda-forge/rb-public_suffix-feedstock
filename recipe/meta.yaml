@@ -1,5 +1,5 @@
 {% set name = "public_suffix" %}
-{% set version = "5.0.5" %}
+{% set version = "6.0.1" %}
 
 package:
   name: rb-{{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://rubygems.org/downloads/{{ name }}-{{ version }}.gem
-  sha256: 72c340218bb384610536919988705cc29e09749c0021fd7005f715c7e5dfc493
+  sha256: 61d44e1cab5cbbbe5b31068481cf16976dd0dc1b6b07bd95617ef8c5e3e00c6f
 
 build:
   noarch: generic
