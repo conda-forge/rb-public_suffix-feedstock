@@ -1,5 +1,5 @@
 {% set name = "public_suffix" %}
-{% set version = "5.0.5" %}
+{% set version = "6.0.1" %}
 
 package:
   name: rb-{{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://rubygems.org/downloads/{{ name }}-{{ version }}.gem
-  sha256: 72c340218bb384610536919988705cc29e09749c0021fd7005f715c7e5dfc493
+  sha256: 61d44e1cab5cbbbe5b31068481cf16976dd0dc1b6b07bd95617ef8c5e3e00c6f
 
 build:
   noarch: generic
@@ -15,26 +15,24 @@ build:
   script:
     - gem install --norc -l -V --ignore-dependencies {{ name }}-{{ version }}.gem
     - gem unpack {{ name }}-{{ version }}.gem
-  skip: {{ win }}
 
 requirements:
   host:
-    - ruby >=2.7,<3
+    - ruby
   run:
-    - ruby >=2.7,<3
+    - {{ pin_compatible('ruby', max_pin='x.x') }}
 
 test:
   commands:
     - ruby -r {{ name }} -e 'exit 0'
 
 about:
-  home: https://rubygems.org/gems/{{ name }}
+  home: https://rubygems.org/gems/public_suffix
   license: MIT
   license_family: MIT
-  license_file: {{ name }}-{{ version }}/LICENSE.txt
+  license_file: LICENSE.txt
   summary: PublicSuffix can parse and decompose a domain name into top level domain, domain and subdomains
-
-  doc_url: http://www.rubydoc.info/gems/{{ name }}
+  doc_url: https://rubydoc.info/gems/public_suffix
   dev_url: https://github.com/weppos/publicsuffix
 
 extra:
