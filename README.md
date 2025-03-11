@@ -11,7 +11,7 @@ Summary: PublicSuffix can parse and decompose a domain name into top level domai
 
 Development: https://github.com/weppos/publicsuffix
 
-Documentation: http://www.rubydoc.info/gems/public_suffix
+Documentation: https://rubydoc.info/gems/public_suffix
 
 Current build status
 ====================
