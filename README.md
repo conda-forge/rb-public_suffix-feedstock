@@ -31,7 +31,7 @@ Current release info
 
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
-| [![Conda Recipe](https://img.shields.io/badge/recipe-rb--public_suffix-green.svg)](https://anaconda.org/conda-forge/rb-public_suffix) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/rb-public_suffix.svg)](https://anaconda.org/conda-forge/rb-public_suffix) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/rb-public_suffix.svg)](https://anaconda.org/conda-forge/rb-public_suffix) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/rb-public_suffix.svg)](https://anaconda.org/conda-forge/rb-public_suffix) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-rb--public__suffix-green.svg)](https://anaconda.org/conda-forge/rb-public_suffix) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/rb-public_suffix.svg)](https://anaconda.org/conda-forge/rb-public_suffix) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/rb-public_suffix.svg)](https://anaconda.org/conda-forge/rb-public_suffix) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/rb-public_suffix.svg)](https://anaconda.org/conda-forge/rb-public_suffix) |
 
 Installing rb-public_suffix
 ===========================
@@ -148,6 +148,7 @@ Feedstock Maintainers
 =====================
 
 * [@janjagusch](https://github.com/janjagusch/)
+* [@jdmarques](https://github.com/jdmarques/)
 * [@sodre](https://github.com/sodre/)
 * [@svengiegerich](https://github.com/svengiegerich/)
 
